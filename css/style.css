@@ -6486,13 +6486,12 @@ body.no-sidebar .sidebar {
   padding-bottom: 0.3em;
   font-size: 2em;
   border-bottom: 1px solid #f2f2f2;
-  text-align:center;
 }
 
 .marked-body h2 {
   padding-bottom: 0.3em;
   font-size: 1.5em;
-  
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .marked-body a {
@@ -9208,16 +9207,4 @@ body.okayNav-loaded {
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
-}
-.hexo-douban-tab{
-  color: #2e2e33 !important;
-}
-.hexo-douban-active {
-    background: #eeeeee !important;
-    color: #2e2e33 !important;
-}
-
-.hexo-douban-button:hover {
-    background: #eeeeee !important;
-    color: #fff;
 }
