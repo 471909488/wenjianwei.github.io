@@ -6,7 +6,7 @@
   <link href="http://www.iwjw.top/atom.xml" rel="self"/>
   
   <link href="http://www.iwjw.top/"/>
-  <updated>2021-07-09T13:03:00.562Z</updated>
+  <updated>2021-07-09T13:23:02.088Z</updated>
   <id>http://www.iwjw.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.iwjw.top/2021/09/28/20210790/"/>
     <id>http://www.iwjw.top/2021/09/28/20210790/</id>
     <published>2021-09-27T16:00:00.000Z</published>
-    <updated>2021-07-09T13:03:00.562Z</updated>
+    <updated>2021-07-09T13:23:02.088Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Mysql的三层结构-破除神秘"><a href="#Mysql的三层结构-破除神秘" class="headerlink" title="Mysql的三层结构-破除神秘"></a>Mysql的三层结构-破除神秘</h2><p><img src="QQ%E6%88%AA%E5%9B%BE20210709151254.png" alt="QQ截图20210709151254"></p><h2 id="创建表-amp-插入数据"><a href="#创建表-amp-插入数据" class="headerlink" title="创建表 &amp;插入数据"></a>创建表 &amp;插入数据</h2><blockquote><p>#使用指令创建数据库<br>create database hsp_01;</p><p>#删除数据库指令<br>drop database hsp_db01;</p><p>#创建一个使用utf8字符集的hsp_db02 数据库<br>create database hsp_db02 character set utf8;</p><p>#创建一个使用utf8字符集，并带校对规则的hsp_db03数据库<br>creata database hsp_db03 character set utf8_bin collate</p><p>select * from t1 where name =’tom’;  #查看操作</p><p>#查看前面创建的hsp_db02 数据库的定义信息<br>show create database hsp_db02</p><p> #在创建数据库时，若名称和关键词冲突，请用反引号解决<br>create database ‘create’</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="Mysql的三层结构-破除神秘"><a href="#Mysql的三层结构-破除神秘" class="headerlink" title="Mysql的三层结构-破除神秘"></a>Mysql的三层结构-破除神秘</h2><p><img src="QQ%E6%88%AA%E5%9B%BE20210709151254.png" alt="QQ截图20210709151254"></p><h2 id="创建表-amp-插入数据"><a href="#创建表-amp-插入数据" class="headerlink" title="创建表 &amp;插入数据"></a>创建表 &amp;插入数据</h2><blockquote><p>#使用指令创建数据库<br>create database hsp_01;</p><p>#删除数据库指令<br>drop database hsp_db01;</p><p>#创建一个使用utf8字符集的hsp_db02 数据库<br>create database hsp_db02 character set utf8;</p><p>#创建一个使用utf8字符集，并带校对规则的hsp_db03数据库<br>creata database hsp_db03 character set utf8_bin collate</p><p>select * from t1 where name =’tom’;  #查看操作</p><p>#查看前面创建的hsp_db02 数据库的定义信息<br>show create database hsp_db02</p><p> #在创建数据库时，若名称和关键词冲突，请用反引号解决<br>create database ‘create’</p></blockquote><h2 id="备份恢复数据库"><a href="#备份恢复数据库" class="headerlink" title="备份恢复数据库"></a>备份恢复数据库</h2><blockquote><p>mysqldump -u root -p -B hsp_db02 &gt; d:\backup.sql</p></blockquote>]]></content>
     
     
       
