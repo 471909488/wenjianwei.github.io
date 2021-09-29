@@ -1,670 +1,97 @@
 <!DOCTYPE html>
-<html lang=zh>
+<html>
 <head>
-  <meta charset="utf-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="format-detection" content="telephone=no,email=no,adress=no">
-  <!-- Color theme for statusbar -->
-  <meta name="theme-color" content="#000000" />
-  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
-  <meta http-equiv="window-target" content="_top" />
-  
-  
-  <title>Shindavidwei</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Shindavidwei">
-<meta property="og:url" content="http://www.iwjw.top/index.html">
-<meta property="og:site_name" content="Shindavidwei">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-  <!-- Canonical links -->
-  <link rel="canonical" href="http://www.iwjw.top/index.html">
-  
-    <link rel="alternate" href="/atom.xml" title="Shindavidwei" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png" type="image/x-icon">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-  
-  
-  
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.css">
-  
-<meta name="generator" content="Hexo 5.4.0"></head>
-
-
-<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
-  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-  <div class="slimContent">
-    <div class="navbar-header">
-      
-      
-      <div class="profile-block text-center">
-        <a id="avatar" href="https://iwjw.top" target="_blank">
-          <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
-        </a>
-        <h2 id="name" class="hidden-xs hidden-sm">Shindavidwei</h2>
-        <h3 id="title" class="hidden-xs hidden-sm hidden-md">Web Developer &amp; Designer</h3>
-        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Shenzhen, China</small>
-      </div>
-      
-      <div class="search" id="search-form-wrap">
-
-    <form class="search-form sidebar-form">
-        <div class="input-group">
-            <input type="text" class="search-form-input form-control" placeholder="搜索" />
-            <span class="input-group-btn">
-                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
-            </span>
-        </div>
-    </form>
-    <div class="ins-search">
-  <div class="ins-search-mask"></div>
-  <div class="ins-search-container">
-    <div class="ins-input-wrapper">
-      <input type="text" class="ins-search-input" placeholder="想要查找什么..." x-webkit-speech />
-      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-    </div>
-    <div class="ins-section-wrapper">
-      <div class="ins-section-container"></div>
-    </div>
-  </div>
-</div>
-
-
-</div>
-      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-      <ul class="nav navbar-nav main-nav ">
-        
-        
-        <li class="menu-item menu-item-home">
-          <a href="/.">
-            
-            <i class="icon icon-home-fill"></i>
-            
-            <span class="menu-title">首页</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives">
-            
-            <i class="icon icon-archives-fill"></i>
-            
-            <span class="menu-title">归档</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories">
-            
-            <i class="icon icon-folder"></i>
-            
-            <span class="menu-title">分类</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags">
-            
-            <i class="icon icon-tags"></i>
-            
-            <span class="menu-title">标签</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-books">
-          <a href="/books">
-            
-            <i class="icon icon-book-fill"></i>
-            
-            <span class="menu-title">书单</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-links">
-          <a href="/links">
-            
-            <i class="icon icon-friendship"></i>
-            
-            <span class="menu-title">友链</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about">
-            
-            <i class="icon icon-cup-fill"></i>
-            
-            <span class="menu-title">关于</span>
-          </a>
-        </li>
-        
-      </ul>
-      
-	
-    <ul class="social-links">
-    	
-        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
-        
-    </ul>
-
-    </nav>
-  </div>
-</header>
-
-  
-    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
-  <div class="slimContent">
-    
-      <div class="widget">
-    <h3 class="widget-title">格言</h3>
-    <div class="widget-body">
-        <div id="board">
-            <div class="content">
-				
-				<p id="hitokoto">:D 获取中...</p>
-				<p id="from" style="text-align: right"></p>
-                <script>
-					  var xhr = new XMLHttpRequest();
-					  xhr.open('get', 'https://v1.hitokoto.cn');
-					  xhr.onreadystatechange = function () {
-						if (xhr.readyState === 4) {
-						  var data = JSON.parse(xhr.responseText);
-						  var hitokoto = document.getElementById('hitokoto');
-						  hitokoto.innerText = data.hitokoto;
-						  var from = document.getElementById('from');
-						  from.innerText = "-- " + data.from;
-						}
-					  }
-					  xhr.send();
-				</script>
-				
-				<p>欢迎交流与分享经验!</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget-body">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/">关于博主</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%83%85%E6%84%9F/">情感</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/">编程开发</a><span class="category-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget-body">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/" rel="tag">Go语言基础</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mysql/" rel="tag">Mysql</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php%E5%9F%BA%E7%A1%80%EF%BC%8C%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD/" rel="tag">php基础，逻辑判断</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8F%98%E9%87%8F/" rel="tag">变量</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B8%B8%E9%87%8F/" rel="tag">常量</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%83%85%E6%84%9F/" rel="tag">情感</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A8%A1%E5%BC%8F%E5%B8%B8%E9%87%8F/" rel="tag">模式常量</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%88%B1%E6%83%85/" rel="tag">爱情</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AE%80%E5%8E%86/" rel="tag">简历</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget-body tagcloud">
-      <a href="/tags/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/" style="font-size: 13px;">Go语言基础</a> <a href="/tags/Mysql/" style="font-size: 13px;">Mysql</a> <a href="/tags/php%E5%9F%BA%E7%A1%80%EF%BC%8C%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD/" style="font-size: 13px;">php基础，逻辑判断</a> <a href="/tags/%E5%8F%98%E9%87%8F/" style="font-size: 13px;">变量</a> <a href="/tags/%E5%B8%B8%E9%87%8F/" style="font-size: 13px;">常量</a> <a href="/tags/%E6%83%85%E6%84%9F/" style="font-size: 13px;">情感</a> <a href="/tags/%E6%A8%A1%E5%BC%8F%E5%B8%B8%E9%87%8F/" style="font-size: 13px;">模式常量</a> <a href="/tags/%E7%88%B1%E6%83%85/" style="font-size: 13px;">爱情</a> <a href="/tags/%E7%AE%80%E5%8E%86/" style="font-size: 13px;">简历</a>
-    </div>
-  </div>
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">九月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">八月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">六月 2021</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">九月 2016</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget-body">
-      <ul class="recent-post-list list-unstyled no-thumbnail">
-        
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2021/09/28/20210790/" class="title">Mysql</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2021-09-27T16:00:00.000Z" itemprop="datePublished">2021-09-28</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2021/08/07/20210808/" class="title">Part1 of Php Base</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2021-08-07T08:57:06.000Z" itemprop="datePublished">2021-08-07</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2021/06/16/20210616/" class="title">Go语言基础之变量和常量</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2021-06-16T03:34:15.000Z" itemprop="datePublished">2021-06-16</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/">编程开发</a>
-              </p>
-              <p class="item-title">
-                <a href="/2021/06/15/20210615/" class="title">Go语言基础</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2021-06-14T16:00:00.000Z" itemprop="datePublished">2021-06-15</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                <a class="category-link" href="/categories/%E6%83%85%E6%84%9F/">情感</a>
-              </p>
-              <p class="item-title">
-                <a href="/2021/06/15/20210813/" class="title">为什么不该追求爱情？</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2021-06-14T16:00:00.000Z" itemprop="datePublished">2021-06-15</time>
-              </p>
-            </div>
-          </li>
-          
-      </ul>
-    </div>
-  </div>
-  
-
-    
-  </div>
-</aside>
-
-  
-  <main class="main" role="main">
-  
-  <div class="content article-list">
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/09/28/20210790/">Mysql</a>
-    </h1>
-  
-
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2021/09/28/20210790/" class="article-date">
-	  <time datetime="2021-09-27T16:00:00.000Z" itemprop="datePublished">9月 28</time>
-	</a>
-</span>
-    
-    
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/tags/Mysql/" rel="tag">Mysql</a>
-  </span>
-
-
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/09/28/20210790/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
-</article>
-
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/08/07/20210808/">Part1 of Php Base</a>
-    </h1>
-  
-
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2021/08/07/20210808/" class="article-date">
-	  <time datetime="2021-08-07T08:57:06.000Z" itemprop="datePublished">8月 7</time>
-	</a>
-</span>
-    
-    
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/tags/php%E5%9F%BA%E7%A1%80%EF%BC%8C%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD/" rel="tag">php基础，逻辑判断</a>, <a class="article-tag-link-link" href="/tags/%E6%A8%A1%E5%BC%8F%E5%B8%B8%E9%87%8F/" rel="tag">模式常量</a>
-  </span>
-
-
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/08/07/20210808/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
-</article>
-
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/06/16/20210616/">Go语言基础之变量和常量</a>
-    </h1>
-  
-
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2021/06/16/20210616/" class="article-date">
-	  <time datetime="2021-06-16T03:34:15.000Z" itemprop="datePublished">6月 16</time>
-	</a>
-</span>
-    
-    
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/tags/%E5%8F%98%E9%87%8F/" rel="tag">变量</a>, <a class="article-tag-link-link" href="/tags/%E5%B8%B8%E9%87%8F/" rel="tag">常量</a>
-  </span>
-
-
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/06/16/20210616/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
-</article>
-
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/06/15/20210615/">Go语言基础</a>
-    </h1>
-  
-
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2021/06/15/20210615/" class="article-date">
-	  <time datetime="2021-06-14T16:00:00.000Z" itemprop="datePublished">6月 15</time>
-	</a>
-</span>
-    
-  <span class="article-category">
-    <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/">编程开发</a>
-  </span>
-
-    
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/tags/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/" rel="tag">Go语言基础</a>
-  </span>
-
-
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/06/15/20210615/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
-</article>
-
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/06/15/20210813/">为什么不该追求爱情？</a>
-    </h1>
-  
-
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2021/06/15/20210813/" class="article-date">
-	  <time datetime="2021-06-14T16:00:00.000Z" itemprop="datePublished">6月 15</time>
-	</a>
-</span>
-    
-  <span class="article-category">
-    <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/%E6%83%85%E6%84%9F/">情感</a>
-  </span>
-
-    
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/tags/%E7%88%B1%E6%83%85/" rel="tag">爱情</a>
-  </span>
-
-
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/06/15/20210813/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
-</article>
-
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/06/11/20210612/">如何用王家卫的方式表白</a>
-    </h1>
-  
-
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2021/06/11/20210612/" class="article-date">
-	  <time datetime="2021-06-10T16:00:00.000Z" itemprop="datePublished">6月 11</time>
-	</a>
-</span>
-    
-  <span class="article-category">
-    <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/%E6%83%85%E6%84%9F/">情感</a>
-  </span>
-
-    
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/tags/%E6%83%85%E6%84%9F/" rel="tag">情感</a>
-  </span>
-
-
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/06/11/20210612/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
-</article>
-
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/09/27/201609270452/">Resume of David Wei</a>
-    </h1>
-  
-
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2016/09/27/201609270452/" class="article-date">
-	  <time datetime="2016-09-26T20:55:00.000Z" itemprop="datePublished">9月 27</time>
-	</a>
-</span>
-    
-  <span class="article-category">
-    <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/">关于博主</a>
-  </span>
-
-    
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/tags/%E7%AE%80%E5%8E%86/" rel="tag">简历</a>
-  </span>
-
-
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2016/09/27/201609270452/#comments" class="article-comment-link">评论</a></span>
-    
-  </p>
-</article>
-
-    
-  </div>
-
-   
-</main>
-
-  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
-	
-	
-    <ul class="social-links">
-    	
-        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
-        
-    </ul>
-
-    <div class="copyright">
-    	
-        <div class="publishby">
-        	More <a href="https://iwjw.top" target="_blank"> contact </a> <a href="https://iwjw.top" target="_blank">information</a>.
-        </div>
-    </div>
-</footer>
-  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-<script>
-window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
-</script>
-
-<script src="/js/plugin.min.js"></script>
-
-
-<script src="/js/application.js"></script>
-
-
-    <script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: '文章',
-            PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
-            UNTITLED: '(未命名)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-
-
-    <script>
-(function ($) {
-    $('.search-form').on('submit', function (e) {
-        var keyword = $('.search-form-input[name="wd"]').val();
-        window.location = 'https://www.baidu.com/s?wd=site:www.iwjw.top ' + keyword;
-        return false;
-    });
-})(jQuery);
-</script>
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
+	<title>关于Apeclss用户学习受阻的解决方案</title>
+	<style type="text/css">
+		p{
+			line-height: 26px;
+		}
+	</style>
+</head>
+<body>
+	<div style="width: 900px;margin: 0 auto;">
+		<h1>关于Apeclss用户学习受阻的解决方案</h1>
+		<p>亲爱的会员&粉丝朋友：</p>
+		<p>Hi，大家好！</p>
+		<p>当你看见这个信息的时候，说明我们还没有修复好网站；<br/>
+我们对此事感到非常抱歉和愧疚；此次，我们遭受到了前所未有的攻击；如你所见，在网站安全防护方面我们已经做了很多；诸如：从最开始的各种高防服务器，高防CDN，再到后面的DNSpod、阿里吞金、分布式集群、Anycast、以及Cloudflare;尽管，这个配置看起来还是挺好的。但显然易见，我们还是没防守住；</p>
+		<p>首先我谨代表ApeClass团队向各位用户对于我们的大力支持表示感谢&致歉；感谢是各位的支持，也是我们坚持到现在的动力。抱歉的是，我们在网络安防方面，还是彻头彻尾的失败了；</p>
+		<p>由于此次攻击力度、攻击持续性等等，都远远超出我们的预期，我们团队短时间内无法及时地给大家提供稳定的学习环境，再次深感抱歉。</p>
+		<hr>
+
+		<p style="font-weight: bold;color: red;"><u>但为了不影响各位亲爱的会员地正常学习，我们团队做了一个重大的、艰难的、甚至是灾难性的决定——我们将面向我们的会员朋友，开放课程源视频的下载；（起码，下载到您电脑/手机的课程视频可以不被中断的学习）</u></p>
+		<p>我们深知，这可能会将课程源文件外泄；甚至沦为盗版贩子的牟利工具；但，相比于会员朋友们一直在焦急的等待我们，阻断了学习。我们还是决定拿出源视频文件，以供会员朋友们学习；</p>
+		<p>
+			<b>课程源视频文件的发放，仅面向已购买的会员；具体流程如下：</b>
+		</p>
+
+		<p>
+			<ul style="line-height: 30px;">
+				<li style="font-weight: bold;"><u>1、我们将向您网站注册的手机号/小店下单的手机号下发短信</u></li>
+				<li style="font-weight: bold;"><u>2、短信中会附上课程源文件下载地址，您可以下载至本地（电脑or 手机）</u></li>
+				<li style="font-weight: bold;">
+					<u>
+					3、短信将分三批发放：
+						<ul>
+							<li >3.1第一批短信将于2021年09月29日（今晚）12点开始；</li>
+							<li>3.2第二批短信将于2021年09月30日，17点发放；</li>
+							<li>3.2第三批短信将于2021年09月30日，24点发放；</li>
+						</ul>
+					</u>
+				</li>
+			</ul>
+		</p>
+		
+		<p style="font-weight: blod;color:red;">
+			<b>预计明天(0930)全部发放完毕；<br/>
+因不确定您具体属于哪一批发放序列，若尚未收到短信请耐心等待；</b>
+		</p>	
+
+
+		<p>这很无奈，但唯有这样，才可以保证用户快速的、正常的、不受阻断的正常学习；很抱歉，很遗憾。</p>
+
+		<hr>
+
+		<p>
+			<strong>关于Apeclass，以及接下来的规划；具体如下：</strong>
+		</p>
+
+		<p>
+			<ul style="line-height: 30px;">
+				<li style="font-weight: bold;"><u>1、我们将继续致力于开发维护apeclass平台，聘请业内各路高手；</u></li>
+				<li style="font-weight: bold;"><u>2、接下来的新课程，将依然在apeclass平台完成；</u></li>
+				<li style="font-weight: bold;"><u>3、包括之前我们规划的python、java、c语言、测试、运维等主流学科课程；</u></li>
+				<li style="font-weight: bold;"><u>4、网络安防这是一个持久战、我们很无奈，请多给我们一些时间。</u></li>
+			</ul>
+		</p>
+
+
+		<p>
+			接下来我们团队将快速扩展，修炼内功，把平台建设好。尽早地恢复大家的尊贵的会员权益。请大家给我们一点点时间，等我们平台恢复后，我们会拿出我们的诚意，回馈到每一位不离不弃的支持我们的粉丝朋友。感谢你们的不离不弃，感谢你们的风雨同舟，感谢你们的……千言万语都无法表达我们的谢意。
+		</p>
+
+		<p>请大家放心，我们将带着大家对我们的这份信任与支持，我们将不忘初心，绝不放弃，早日将平台展现给大家，恢复各位初始会员的永久VIP权限。</p>
+		<p>在网站尚未完全修复的这段时间，辛苦各位会员先行通过下载的课程源文件学习；</p>
+		<p>最后，再次感谢大家的支持与理解，请给我们一点点时间。</p>
+
+		<br/>
+
+		<p style="font-weight: bold;color:red;">*重要；请关注Apeclass微信订阅号，网站更新后您可以第一时间收到我们的通知；感谢！</p>
+		<img src="https://www.iwjw.top/images/123.jpg">
+
+
+
+
+
+
+		</p>
+	</div>
+	<hr>
+	<div style="width: 900px;margin: 0 auto;">
+		<p>	
+			Copyright © 2020-2021 深圳春雨听雷网络科技有限公司 All Rights Reserved. 
+			<a href="https://beian.miit.gov.cn/">粤ICP备2021031637号</a>
+		</p>
+	</div>
 </body>
 </html>
