@@ -6,7 +6,7 @@
   <link href="http://www.iwjw.top/atom.xml" rel="self"/>
   
   <link href="http://www.iwjw.top/"/>
-  <updated>2021-07-09T13:35:58.108Z</updated>
+  <updated>2021-12-08T05:47:37.092Z</updated>
   <id>http://www.iwjw.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java重要特点</title>
+    <link href="http://www.iwjw.top/2021/12/08/202112081208/"/>
+    <id>http://www.iwjw.top/2021/12/08/202112081208/</id>
+    <published>2021-12-08T04:08:54.000Z</published>
+    <updated>2021-12-08T05:47:37.092Z</updated>
+    
+    <content type="html"><![CDATA[<p>java语言是健壮的。java的强类型机制、异常处理、垃圾自动收集等j是ava程序健壮性的重要保障。</p><br/><p>1.java语言是面向对象的(opp)</p><p>3.java是一门跨平台语言</p><p>4.java是一门解释型的语言、解释型语言、编译后的代码不能直接被机器执行、<br/>需要解释器来执行、编译型语言、编译后的代码，可以直接被机器执行，c/c++。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;java语言是健壮的。java的强类型机制、异常处理、垃圾自动收集等j是ava程序健壮性的重要保障。&lt;/p&gt;
+&lt;br/&gt;
+
+&lt;p&gt;1.java语言是面向对象的(opp)&lt;/p&gt;
+&lt;p&gt;3.java是一门跨平台语言&lt;/p&gt;
+&lt;p&gt;4.java是一门解释型的语言、解释型语言、编</summary>
+      
+    
+    
+    
+    <category term="编程开发" scheme="http://www.iwjw.top/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="java特点" scheme="http://www.iwjw.top/tags/java%E7%89%B9%E7%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>Mysql</title>
