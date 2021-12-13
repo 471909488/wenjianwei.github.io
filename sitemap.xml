@@ -2,55 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.iwjw.top/2021/12/10/202112102344/</loc>
-    
-    <lastmod>2021-12-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/2021/12/08/202112081208/</loc>
-    
-    <lastmod>2021-12-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/2021/06/15/20210813/</loc>
-    
-    <lastmod>2021-08-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/2021/08/07/20210808/</loc>
-    
-    <lastmod>2021-08-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/2021/09/28/20210790/</loc>
-    
-    <lastmod>2021-07-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/2021/06/16/20210616/</loc>
-    
-    <lastmod>2021-06-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/2021/06/15/20210615/</loc>
-    
-    <lastmod>2021-06-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.iwjw.top/2021/06/11/20210612/</loc>
     
     <lastmod>2021-06-11</lastmod>
@@ -68,13 +19,6 @@
     <loc>http://www.iwjw.top/baidu_verify_kWenKmNYFP.html</loc>
     
     <lastmod>2020-04-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/2016/09/27/201609270452/</loc>
-    
-    <lastmod>2019-09-27</lastmod>
     
   </url>
   
@@ -116,85 +60,15 @@
 
   <url>
     <loc>http://www.iwjw.top/</loc>
-    <lastmod>2021-12-10</lastmod>
+    <lastmod>2021-12-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://www.iwjw.top/tags/%E7%AE%80%E5%8E%86/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.iwjw.top/tags/%E6%83%85%E6%84%9F/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/tags/%E5%8F%98%E9%87%8F/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/tags/%E5%B8%B8%E9%87%8F/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/tags/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/tags/Mysql/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/tags/php%E5%9F%BA%E7%A1%80%EF%BC%8C%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/tags/%E6%A8%A1%E5%BC%8F%E5%B8%B8%E9%87%8F/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/tags/%E7%88%B1%E6%83%85/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/tags/java%E7%89%B9%E7%82%B9/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/tags/php%E5%8F%98%E9%87%8F/</loc>
-    <lastmod>2021-12-10</lastmod>
+    <lastmod>2021-12-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -202,22 +76,8 @@
 
   
   <url>
-    <loc>http://www.iwjw.top/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E4%B8%BB/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.iwjw.top/categories/%E6%83%85%E6%84%9F/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iwjw.top/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2021-12-10</lastmod>
+    <lastmod>2021-12-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
